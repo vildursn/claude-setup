@@ -1,7 +1,28 @@
 {
   "model": "claude-sonnet-4-6",
+  "theme": "auto",
   "enabledPlugins": {
     "rust-analyzer-lsp@claude-plugins-official": true
   },
-  "theme": "auto"
+  "extraKnownMarketplaces": {
+    "personal": {
+      "source": {
+        "source": "directory",
+        "path": "__REPO_DIR__"
+      }
+    }
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo \"$CLAUDE_TOOL_INPUT\" | grep -q 'git commit'; then echo '--- Linting ---' && ruff check . && echo '--- Secrets scan ---' && gitleaks git --staged; fi"
+          }
+        ]
+      }
+    ]
+  }
 }
