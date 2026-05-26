@@ -26,6 +26,7 @@ skills/
   design/              # Personal design style (minimal, earthy, playful details)
   explore/             # Learn and understand an unfamiliar codebase
   greenfield/          # Plan a new project from scratch
+  norwegian/           # Guide for writing Norwegian (Bokmål tone, grammar, vocabulary)
   plan/                # Design an implementation approach before coding
   review/              # Review code changes for correctness, security, quality
 ```
@@ -51,5 +52,6 @@ Blocks the commit if either fails.
 | `design` | Building or designing any UI |
 | `explore` | New to a repo or want to understand how it works |
 | `greenfield` | Planning a new project with nothing to start from |
+| `norwegian` | Writing, editing, or reviewing Norwegian text |
 | `plan` | Starting a non-trivial task with unclear approach |
 | `review` | Reviewing a PR, diff, or set of changes |
