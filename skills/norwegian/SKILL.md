@@ -22,6 +22,8 @@ description: Guide for writing Norwegian text — tone, grammar conventions, voc
   - bruke, ikke *use*; laste ned, ikke *downloade*; nettsted, ikke *website*; skjerm, ikke *screen*
 - Established tech terms are fine as-is: API, pull request, deployment, debugging
 - Avoid half-baked Norwegianizations that nobody says (e.g. *klikke på* is fine, *trykke på* even better)
+- **KI** not *AI* when writing Norwegian — "kunstig intelligens" abbreviates to KI, not the English AI
+- Introduce abbreviations with the Norwegian term first: "forklarbar KI (XAI)", not "XAI (forklarbar AI)"
 
 ## Grammar & Style
 
@@ -30,6 +32,15 @@ description: Guide for writing Norwegian text — tone, grammar conventions, voc
 - Don't omit the subject (unlike Spanish/Italian) — Norwegian needs it
 - Numbers: use spaces as thousand separators (10 000, not 10,000); comma as decimal separator (3,14)
 - Dates: dd.mm.yyyy or "26. mai 2026"
+
+## Natural phrasing
+
+- Prefer active voice and direct constructions — *jeg dras mot* not *jeg blir dratt mot*
+- Use colloquial single-word adverbials where they exist: *jobbmessig*, *faglig*, *personlig* — more natural than *profesjonelt sett* or *når det gjelder jobb*
+- Add *gjerne* for warmth without excess: *Ta gjerne kontakt*, *Jeg hjelper gjerne til*
+- Cut sentence length before reaching for a dash — if the clause works on its own, make it its own sentence
+- Comma instead of em-dash where the sentence flows naturally without a break
+- Casual register is fine and often preferable: *bare for gøy* lands better than *laget for moro skyld* in informal contexts
 
 ## Common Pitfalls
 
